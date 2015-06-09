@@ -1,0 +1,26 @@
+{
+    "name": "hotdog/calendar-recurring-events",
+    "description": "Library for handling recurring events for calendars",
+    "authors": [
+        {
+            "name": "jeremy giberson",
+            "email": "jeremygiberson@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hotdog\\CalendarRecurringEvents\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hotdog\\CalendarRecurringEvents\\Unit\\": "test/Unit",
+            "Hotdog\\CalendarRecurringEvents\\Functional\\": "test/Functional"
+        }
+    }
+
+}
